@@ -4,7 +4,7 @@ link to github pages: https://irina-the-developer.github.io/todo-list/
 To run this project locally:
 
 -   npm i
--   npm run dev
+-   npm run start
 
 Other useful commands:
 
