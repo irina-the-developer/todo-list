@@ -6,7 +6,7 @@ import reducer, {
     changeFilter,
 } from './reducer';
 
-describe('todos reducer', () => {
+describe('Todos reducer', () => {
     it('should add an item', () => {
         const initialState = {
             todos: [],

@@ -17,8 +17,8 @@ export enum FilterType {
 }
 
 const initialState: IState = {
-    todos: [],
     filter: FilterType.ALL,
+    todos: []
 };
 
 const todosSlice = createSlice({
