@@ -1,4 +1,5 @@
 {
+    "homepage": "https://irina-the-developer.github.io/todo-list",
     "name": "my-todos",
     "private": true,
     "version": "0.0.0",
@@ -9,7 +10,9 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "format": "prettier --write src/*",
-        "test": "vitest"
+        "test": "vitest",
+        "predeploy": "npm run build --outDir ./build",
+        "deploy": "gh-pages -d build"
     },
     "dependencies": {
         "@ant-design/icons": "^5.4.0",
