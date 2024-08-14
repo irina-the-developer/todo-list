@@ -36,7 +36,7 @@ export const Todos = () => {
         >
             <div className="h-screen max-w-4xl mx-auto p-4 bg-gray-100 rounded">
                 <h2 className="mt-3 mb-6 text-center lowercase text-red-400 font-thin text-9xl">
-                    todos
+                    todos.
                 </h2>
                 <div className="flex flex-col items-center shadow-xl rounded-xl">
                     <input
